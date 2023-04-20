@@ -129,15 +129,15 @@ function do_set_spi_to_json()
 
 function do_set_model()
 {
-    echo_model_info
+    # echo_model_info
     while [ 1 -eq 1 ]
     do
-        read RAK_MODEL
+        # read RAK_MODEL
+        RAK_MODEL=11
         if [ -z "$RAK_MODEL" ]; then
             echo_yellow "Please enter 1-12 to select the model:\c"
             continue
         fi
-
         do_check_variable_type $RAK_MODEL
         RET=$?
 
