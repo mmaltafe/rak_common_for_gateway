@@ -129,7 +129,7 @@ function do_set_spi_to_json()
 
 function do_set_model()
 {
-    # echo_model_info
+    echo_model_info
     while [ 1 -eq 1 ]
     do
         # read RAK_MODEL
